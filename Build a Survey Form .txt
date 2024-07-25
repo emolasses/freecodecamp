@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css">
+
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form</p>
+    <form id="survey-form">
+    <input id="name" type="text" required placeholder="Enter name"><label id="name-label">
+      <br></br>
+    <input id="email" type="email" required placeholder="Enter Email"><label id="email-label">
+      <br></br>
+    <input id="number" type="number" min="13" max="120" placeholder="Age"><label id="number-label">
+      <br></br>
+      <select id="dropdown">
+        <option>Select current role</option>
+        <option>Student</option>
+        <option>Employed</option>
+        </select>
+        <p>How do you feel about our service?</p>
+      <input type="radio" name="service-rating" value="pleasure"><radio>Impressed</radio>
+      <br>
+      <input type="radio" name="service-rating" value="pleasure"><radio>Pleased</radio>
+      <br>
+      
+      <input type="radio" value="pleasure" name="service-rating"><radio>Displeased</radio>
+      <p>What did you order?</p>
+      <input type="checkbox" value="cheese"><label for="cheese" >Cheese Pizza</label>
+      <br>
+      <input type="checkbox" value="pepperoni"><label for="pepperoni">Pepperoni Pizza</label>
+<br>
+      <input type="checkbox" value="mushroom" ><label for="mushroom">Mushroom Pizza</label>
+
+    <p>Got more to say?</p>
+    <textarea placeholder="Compliments to the chef!"></textarea>
+<br></br>
+<input type="submit" id="submit">
+
+      
+
+</form>
+</html>
