@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+<main id="main">
+    <h1 id="title">Elliot Alderson
+  </h1>
+    <h3>The man who saved the world<h3>
+      <div id="img-div">
+        <img id="image" display="block" src="https://www.rollingstone.com/wp-content/uploads/2019/09/NUP_187231_0241W.jpg?w=1581&h=1054&crop=1">
+        <div id="img-caption">Elliot alderson, member of fsociety, hacked the biggest corperation in the world.</div>
+      </div>
+      <p id="tribute-info">Hes an ordinary man in a hoodie who changed it all.</p>
+      <a id="tribute-link" target="_blank" href="https://mrrobot.fandom.com/wiki/Elliot_Alderson">Want to learn more?</a>
+
+</main>
+
+</html>
